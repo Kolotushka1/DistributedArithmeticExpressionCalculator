@@ -102,3 +102,15 @@
 
 ## Тестирование
 * Также для примера представлена коллекция запросов postman - third_party
+* Имеются тесты в /orchestrator
+* -> Запуск всех тестов
+```bash
+cd orchestrator
+go test -v ./...
+```
+* -> Запуск отдельных тестов
+```bash
+go test -v ./parser
+go test -v ./handlers
+go test -v ./scheduler
+```

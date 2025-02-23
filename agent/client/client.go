@@ -7,6 +7,8 @@ import (
 	"time"
 )
 
+var BaseURL = "http://localhost:8080"
+
 // Task – тип задачи
 type Task struct {
 	ID            int64   `json:"id"`
